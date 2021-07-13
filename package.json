@@ -1,0 +1,27 @@
+{
+  "name": "boot-camp-api-project",
+  "version": "1.0.0",
+  "description": "a simple authentication API project included some crud operations and many functionalities",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahil555/sahil555-Boot-Camp-API-project.git"
+  },
+  "author": "Sahil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sahil555/sahil555-Boot-Camp-API-project/issues"
+  },
+  "homepage": "https://github.com/sahil555/sahil555-Boot-Camp-API-project#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
