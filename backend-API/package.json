@@ -19,7 +19,9 @@
   "homepage": "https://github.com/sahil555/sahil555-Boot-Camp-API-project#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
