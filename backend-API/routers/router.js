@@ -13,12 +13,12 @@ const router = express.Router();
 
 
 router
-    .route('/')
+    .route('/bootcamp')
     .get(getbootcamps)
     .post(createbootcamp)
 
 router
-    .route('/:id')
+    .route('/bootcamp/:id')
     .get(getbootcamp)
     .put(putbootcamp)
     .delete(deletebootcamp)

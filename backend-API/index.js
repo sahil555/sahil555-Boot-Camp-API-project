@@ -11,6 +11,10 @@ dotenv.config({ path : './config/config.env'})
 // Router from express
 const bootcamp = require('./routers/router');
 
+// body parser
+
+app.use(express.json());
+
 // logger middleware 3rd party
 app.use(morgan('combined'))
 
